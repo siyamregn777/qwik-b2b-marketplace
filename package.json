@@ -1,0 +1,33 @@
+{
+  "name": "qwik-b2b-marketplace",
+  "version": "1.0.0",
+  "description": "the project arthecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siyamregn777/qwik-b2b-marketplace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/siyamregn777/qwik-b2b-marketplace/issues"
+  },
+  "homepage": "https://github.com/siyamregn777/qwik-b2b-marketplace#readme",
+  "dependencies": {
+    "@auth/core": "^0.34.3",
+    "@builder.io/qwik-auth": "^0.2.3",
+    "@builder.io/qwik-city": "^1.18.0",
+    "@qwik-ui/headless": "^0.7.4",
+    "@qwik-ui/styled": "^0.4.1",
+    "graphql-request": "^7.4.0",
+    "matrix-js-sdk": "^39.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}

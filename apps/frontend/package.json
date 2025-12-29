@@ -1,0 +1,38 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "qwik build",
+    "build.client": "vite build",
+    "build.preview": "vite build --ssr",
+    "build.server": "vite build -c adapters/static/vite.config.ts",
+    "build.types": "tsc --incremental --noEmit",
+    "dev": "vite --mode ssr",
+    "fmt": "biome format --write .",
+    "fmt.check": "biome format .",
+    "lint": "biome check .",
+    "preview": "qwik build preview && vite preview",
+    "start": "vite --open --mode ssr",
+    "qwik": "qwik"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@builder.io/qwik": "^1.18.0",
+    "@builder.io/qwik-city": "^1.18.0",
+    "@qwikdev/pwa": "^0.0.4",
+    "@types/node": "^20.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.7.3",
+    "vite": "^6.2.6",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "dependencies": {
+    "graphql-request": "^7.1.2",
+    "matrix-js-sdk": "^39.4.0",
+    "zod": "^3.24.1"
+  }
+}
